@@ -14,7 +14,10 @@
     --grayishBlue: hsl(227, 10%, 46%);
 }
 body{
-    background-color: var(--bgColor);
+    background-color: var(--darkCyan);
+    background-image: url("images/bg-pattern-top.svg") , url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat , no-repeat;
+    background-position: right 20vh bottom 40vh , left 18vh top 45vh;
     height: 100vh;
     display: flex;
     align-items: center;
