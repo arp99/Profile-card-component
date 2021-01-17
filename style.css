@@ -6,7 +6,7 @@
 }
 :root{
     --cardColor: #ffffff;
-    --lightGray: #d6d4d4d5;
+    --lightGray: #d6d4d4ad;
     --darkGray: hsl(0, 0%, 59%);
     --darkCyan: hsl(185, 75%, 39%);
     --darkDesaturated: hsl(229, 23%, 23%);
@@ -76,6 +76,7 @@ p{
 }
 hr{
     border-top: 1px solid var(--lightGray);
+    border-bottom: 0;
 }
 #profile__activity{
     display: flex;
