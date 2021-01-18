@@ -14,30 +14,21 @@
 }
 body{
     background-color: var(--darkCyan);
+    background-image: url("images/bg-pattern-top.svg") , url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat , no-repeat;
+    background-position: right 30vh bottom 40vh , left 30vh top 45vh;
     height: 100vh;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Kumbh Sans', sans-serif;
     overflow: hidden;
 }
-#bgTop{
-    position: absolute;
-    right: 50%;
-    bottom: 50%;
-}
-#bgBottom{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
 #card_container{
     background-color: var(--cardColor);
     width: 90%;
     border-radius: 1rem;
     box-shadow: 1px 7px 30px -2px var(--grayishBlue);
-    z-index: 1;
 }
 #card__cover_image{
     background: url("images/bg-pattern-card.svg") no-repeat;
