@@ -34,7 +34,8 @@ body{
 }
 #card_container{
     background-color: var(--cardColor);
-    width: 90%;
+    width: 80%;
+    min-width: 200px;
     border-radius: 1rem;
     box-shadow: 1px 7px 30px -2px var(--grayishBlue);
     z-index: 1;
@@ -96,40 +97,8 @@ hr{
     text-align: center;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 650px) {
+@media only screen and (min-width: 500px){
     #card_container{
-        width: 60%;
-    }
-}
-@media only screen and (min-width: 650px) and (max-width: 800px){
-    #card_container{
-        width: 50%;
-    }
-    body{
-        background-position: right 40vh bottom 50vh , left 40vh top 50vh;
-    }
-}
-@media only screen and (min-width: 800px) and (max-width: 1050px){
-    #card_container{
-        width: 35%;
-    }
-    body{
-        background-position: right 70vh bottom 50vh , left 70vh top 50vh;
-    }
-}
-@media only screen and (min-width: 1050px) and (max-width: 1200px){
-    #card_container{
-        width: 30%;
-    }
-    body{
-        background-position: right 80vh bottom 50vh , left 90vh top 50vh;
-    }
-}
-@media only screen and (min-width: 1200px){
-    #card_container{
-        width: 25%;
-    }
-    body{
-        background-position: right 100vh bottom 50vh , left 110vh top 50vh;
+        max-width: 300px;
     }
 }
